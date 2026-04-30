@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 10px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background-color: #ffffff;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container .title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #333333;
+    text-align: center;
+}
+
+.container .form {
+    width: 100%;
+}
+
+.container .form .input_field {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form .input_field label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+.container .form .input_field .input {
+    border: 1px solid #cccccc;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+}
+
+.container .form .input_field .input:focus {
+    border-color: #5a6268;
+}
+
+.container .form .input_field .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background: #6c757d;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+.container .form .input_field .btn:hover {
+    background:  #5a6268;
+}
+
+.container .form .input_field a.btn {
+    margin-top: 10px;
+    background: #6c757d;
+}
+
+.container .form .input_field a.btn:hover {
+    background: #5a6268;
+}
+
+.container .form .input_field p {
+    font-size: 14px;
+    color: #555555;
+    text-align: center;
+    margin-top: 10px;
+}
+.success{
+    color: rgb(0, 141, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+}
+.error{
+    color: rgb(191, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+p .btn{
+    font-size: 18px;
+    color: grey;
+    margin: 15px 0 20px 0;
+}
+p .btn:hover{
+    color: #3b3b3b;
+}
+
+/* order-history */
+.order-history {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.order-history h3 {
+    text-align: center;
+    font-size: 28px;
+    color: #037C8D;
+    margin-bottom: 20px;
+}
+.order {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.order-status {
+    font-weight: bold;
+    color: #037C8D;
+}
+
+/* order-confirmation */
+.confirmation-message {
+    font-size: 24px;
+    color: #037C8D;
+    text-align: center;
+    padding-top: 50px;
+}
+.receipt {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.home-link {
+    font-size: 18px;
+    color: #037C8D;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* teal heading used in contact page */
+.teal-heading {
+    color: rgb(3, 124, 141);
+}
+
+/* product description in cards */
+.pro-desc {
+    font-size: 14px;
+    color: black;
+}
+
+/* cart grand total alignment */
+.text-right {
+    text-align: right;
+}
+
+/* payment redirect page */
+.payment-redirect {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* ── real-time field validation ── */
+.input.input-valid {
+    border-color: #28a745 !important;
+    background-color: #f6fff8;
+}
+.input.input-invalid {
+    border-color: #dc3545 !important;
+    background-color: #fff8f8;
+}
+.field-hint {
+    font-size: 12px;
+    margin-top: 4px;
+    min-height: 16px;
+    display: block;
+}
+.hint-error {
+    color: #dc3545;
+}
