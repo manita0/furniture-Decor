@@ -22,6 +22,6 @@ PHP . MySQL . HTML/CSS/JS . Font Awesome . Apache (XAMPP)
 4. Visit `http://localhost/furniture&Decor/user/furniture.php`
 
 ## Admin Access
-Go to `http://localhost/furniture&Decor/admin/register.php` and use the secret key to register.  
+Go to `http://localhost/furniture&Decor/admin/register.php` and use the secret key (Furniture2025) to register.  
 The first person to register becomes **superadmin**.
 
